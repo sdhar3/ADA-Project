@@ -22,7 +22,7 @@ We would like to use the Amazon reviews dataset provided to us. We will be using
 Each JSON object contains the following data: reviewerID, asin, reviewerName, helpfulness, reviewText, overall, summary, unixReviewTime, and reviewTime
 
 Here is an example below: 
-![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
+![picture alt](https://github.com/sdhar3/ADA-Project/blob/master/example.png "example of one review")
 
 Our intention is to conduct sentiment analysis on the data and the Amazon product data website recommends we use this data set specifically. 
 
