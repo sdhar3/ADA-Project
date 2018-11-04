@@ -1,18 +1,17 @@
-# Title
-NLP on Amazon Reviews to Aid Customer’s Decision Process
+# NLP on Amazon Reviews to Aid Customer’s Decision Process
 
-# Abstract
+## Abstract
 A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
 Popular Amazon products usually have thousands of reviews from various users explaining the pros/cons of the products along with a description of their personal opinion on the product. While this data may be useful to Amazon customers, often times these comments are time-consuming to sift through. Additionally, users may get more confused reading many positive and negative reviews and Amazon may lose a potential customer. In order to save users time when they are online shopping, we want to conduct a keyword analysis on these reviews by identifying positive and negative words to help a user quickly determine whether they may want this product. After summarizing, we plan on  creating a visualization for these reviews. The dataset used for this study comes from UCSD Julian McAuleys “Amazon product data” dataset.
 
-# Research questions
+## Research questions
 A list of research questions you would like to address during the project. 
 
 * Can we generate keywords from Amazon reviews through sentiment analysis?
 * Can we use sentiment analysis to improve similar word search?
 
-# Dataset
+## Dataset
 List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
 
 List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
@@ -30,7 +29,7 @@ We are going to take the review text from the file and the “overall” from ea
 
 We also plan to do data visualization to see how related certain words are to each other. 
 
-# A list of internal milestones up until project milestone 2
+## A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.
 
 Tasks before November 11th:
@@ -46,5 +45,5 @@ Tasks before November 25th:
 * Visualize these keywords for some of the reviews that were given for particular items being sold on Amazon.
 
 
-# Questions for TAa
+## Questions for TAa
 Add here some questions you have for us, in general or project-specific.
