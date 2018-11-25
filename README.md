@@ -44,6 +44,19 @@ Tasks before November 25th:
 * Apply the model to find keywords for the reviews so that it become easier for future customers to get a better general idea of the reviews without have to read all of them.
 * Visualize these keywords for some of the reviews that were given for particular items being sold on Amazon.
 
+## For Milestone 2 
+We pivoted our idea towards predicting the helpfulness of a review based on just the words in a review. So far, we have tried 2 seperate models. The first being a model built with keras. This basis for the model is to take the reviews and extract to the vocabulary in the reviews to then predict the helpfulness. The second model we tried was a neural network that we built from scratch. The model is a single layer model for which you can change the number of hidden nodes in the hidden layer. The neural network that we built is faster because it removes some ineffiencies in math for the back prop and forward pass when updating the weights between layers. This model also use a ratio to express what words appear more in helpful reviews and which words appear more in unhelpful reviews. The results from both models are not so promising as they only perform, on average, 5%-10% better than random guessing. We have tried many different ways to try to get better results including the following:
+* creating a helpfulness factor that accounts for a higher number of good reviews.
+* changing the number of hidden nodes, learning rate, min_count for removing highly specific words, and polarity_cutoff.
+* adding more data from different datasets
+* changing the training size to testing size ratio
+
+For next steps we are going to try another type of neural network, and add more steps to the pre_processing for words.
+
+Some patterns that I have began to see:
+* It is my belief that the datasets are to broad. I think that if we run the model on data from specfically jean reviews or phone reviews, that we would get much better results. This is because from looking at the words that are appear more often in helpful reviews, we see that they are more specfic. My thoughts on this are that the categories right now are too generic and for reviews to be considered helpful they need to be, in general more specific. Reviews that just say something along the lines of "this is great!" will not get higher helpful reviews, but more in detail reviews will. Therefore the word specificity is very important and the categories need to be smaller because generic words do not hold much value with regards to helpfulness. The next step is to see if can filter these categories a little more.
+* The models are basically sentiment analysis if the min_count is increased and the polarity =0.
+* I will add one more layer to the neural network to see if that helps.
 
 ## Questions for TAa
 Add here some questions you have for us, in general or project-specific.
