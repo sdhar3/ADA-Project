@@ -62,6 +62,6 @@ Some patterns that I have began to see:
 Add here some questions you have for us, in general or project-specific.
 
 ## For Milestone 3 
-Shikhar: Did the intial preprocessing of the data. Helped in the process of determining which models to use. Helped in writing the report.
-Shruti: Helped in the process of determining which models to use. Worked on further optimization of code after the intial model. Helped in writing the report.
+Shikhar: Did the intial preprocessing of the data. Helped in the process of determining which models to use. Helped in writing the report.</br>
+Shruti: Helped in the process of determining which models to use. Worked on further optimization of code after the intial model. Helped in writing the report.</br>
 Varun: Helped in the process of determining which models to use. Worked on coding the model and obtaining the results. Helped in writing the report.
