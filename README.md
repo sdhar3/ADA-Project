@@ -58,10 +58,10 @@ Some patterns that I have began to see:
 * The models are basically sentiment analysis if the min_count is increased and the polarity =0.
 * I will add one more layer to the neural network to see if that helps.
 
-## Questions for TAa
+## Questions for TA
 Add here some questions you have for us, in general or project-specific.
 
 ## For Milestone 3 
-Shikhar: Did the intial preprocessing of the data. Helped in the process of determining which models to use. Helped in writing the report.</br>
-Shruti: Helped in the process of determining which models to use. Worked on further optimization of code after the intial model. Helped in writing the report.</br>
+Shikhar: Did the intial preprocessing of the data. Helped in the process of determining which models to use. Helped in writing the report.</br></br>
+Shruti: Helped in the process of determining which models to use. Worked on further optimization of code after the intial model. Helped in writing the report.</br></br>
 Varun: Helped in the process of determining which models to use. Worked on coding the model and obtaining the results. Helped in writing the report.
